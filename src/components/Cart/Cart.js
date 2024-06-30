@@ -14,7 +14,7 @@ const Cart = () => {
     <div className="p-4 max-w-3xl mx-auto">
       <h2 className="text-2xl font-bold mb-4">Shopping Cart</h2>
       {cart.length === 0 ? (
-        <p className="text-gray-600">Your cart is empty</p>
+        <p className="text-gray-600 text-center">Your cart is empty</p>
       ) : (
         <>
           <ul className="space-y-4">
